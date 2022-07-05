@@ -1,0 +1,5 @@
+include src/libdl/py.typed tox.ini
+recursive-include tests *
+recursive-include docs *
+recursive-exclude docs/build *
+recursive-exclude tests/__pycache__ *
