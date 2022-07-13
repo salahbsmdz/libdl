@@ -20,7 +20,7 @@ Usage
    print(download.filename)
    # example.html
    print(download.path)
-   # path/to/dir/example.html
+   # /home/user/path/to/dir/example.html
    print(download.filesize)
    # 648
    download.run() # Start download
