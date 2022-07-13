@@ -35,7 +35,7 @@ class Download:
     #: The Name for the downloaded file.
     filename: str
 
-    #: Path of the downloaded file.
+    #: The absolute path of the downloaded file.
     path: str
 
     #: File size in bytes or ``None`` if unknown.
